@@ -11,6 +11,11 @@ h1.hero-title {
 	font-size: 35px !important;
 }
 
+.content-section-spacing{
+	padding-top: 50px; 
+	padding-bottom: 20px;
+}
+
 i:hover{
 	color: #acb7c3 !important;
 }
@@ -22,20 +27,6 @@ a.link{
 a.link:hover{
 	color: #acb7c3;
 }
-
-.copyright {
-  text-indent: -9999px;
-  line-height: 0; /* Collapse the original line */
-}
-
-.copyright::after {
-  content: "©  2020 Dalibor Rodic.";
-  text-indent: 0;
-  display: block;
-  line-height: initial; /* New content takes up original line height */
-}
-
-
 
 /*TOP BAR*/
 
@@ -58,12 +49,6 @@ a.link:hover{
 .top-bar-field i.fa{
 	color: #2980b9 !important;
 }
-
-/*
-.header-top-bar-area.area-left .top-bar-field:first-of-type span{
-	text-decoration:underline
-}
-*/
 
 
 /*MAIN MENU*/
@@ -99,10 +84,12 @@ img.custom-logo{
 	border-bottom-color: #fff
 }
 
-.mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current_page_item>a, .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current-menu-item>a, .mesmerize-front-page .fixto-fixed ul.dropdown-menu.default>.current_page_item>a, .mesmerize-front-page .fixto-fixed ul.dropdown-menu.default>.current-menu-item>a {border-bottom-color: #fff}
-
 
 /*MAIN MENU - INNER PAGES*/
+
+.mesmerize-inner-page #main_menu>li>a{
+	border-bottom-color: #fff;
+}
 
 .mesmerize-inner-page #main_menu > li > a{
 	color: #fff !important;
@@ -203,6 +190,50 @@ i.fa.fa-bars{
 	border-style:none;
 }
 
+.spaced-cols>div{
+	margin-bottom: 0px
+}
+
+
+/*RECOMMENDATIONS*/
+
+.card{
+	box-shadow:none
+}
+
+/*CONTACT*/
+
+.contact-1{
+	padding-top: 50px;
+	padding-bottom: 50px !important;
+}
+
+.section-title-col>:last-child:not(.button){
+	margin-bottom: 0px !important;
+}
+
+/*FOOTER*/
+
+.footer-simple .footer-content{
+	padding-top: 10px; 
+	padding-bottom: 10px;}
+
+.footer .row:not(.no-spacing)>div:not(.no-gutter-col){	padding-top: 0px; 
+	padding-bottom: 0px;}
+
+.copyright {
+  text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */
+}
+
+.copyright::after {
+  content: "©  2020 Dalibor Rodic.";
+  text-indent: 0;
+  display: block;
+  line-height: initial; /* New content takes up original line height */
+}
+
+
 /*PORTFOLIO BUTTONS 2
  
 .inverted{
@@ -236,20 +267,17 @@ i.fa.color1{
   
  */
 
-/*RECOMMENDATIONS*/
 
-.card{
-	box-shadow:none
-}
+/*CONTACT FORM
 
-
-/*CONTACT FORM TEXT*/
+CONTACT FORM TEXT
 
 .contact-form-wrapper label, .upper{
 	color: #2980b9;
 }
 
-/*CONTACT FORM BUTTON*/
+
+CONTACT FORM BUTTON
 
 .contact-form-wrapper input[type=submit]{
 	background-color: #2980b9 !important;
@@ -264,20 +292,26 @@ i.fa.color1{
 	background-color: #fff !important;
 	border-color:#2980b9 !important;
 }
+
+
 h1, h3, h4{
 	color: white;
 }
+
 hr{
     padding: 2px 0 !important;
     background-color: white !important;
 	width: 25%;
 }
+
 ul{
 	list-style: none;
 }
 
-/*CONTACT FORM ICONS*/
+
+CONTACT FORM ICONS
 
 i.fa.color1{
 	color: #2980b9;
 }
+*/
